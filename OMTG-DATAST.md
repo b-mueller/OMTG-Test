@@ -57,7 +57,7 @@ If credentials, keys or other sensitive information need to be stored locally us
 [Android Storage Documentation](https://developer.android.com/training/basics/data-storage/index.html)
 
 
-## Android
+## IOS
 
 ### White-box Testing
 
