@@ -56,3 +56,13 @@ If credentials, keys or other sensitive information need to be stored locally us
 
 [Android Storage Documentation](https://developer.android.com/training/basics/data-storage/index.html)
 
+
+## Android
+
+### White-box Testing
+
+### Black-box Testing
+
+### Remediation
+
+The IOS Keychain Services API provides the most secure way to store small amounts of data on a device. By making a single call to this API, an app can store small bits of secret information on a keychain, from which the app can later retrieve the information—also with a single call. The keychain secures data by encrypting it before storing it in the file system, relieving you of the need to implement complicated encryption algorithms. The system also carefully controls access to stored items. The entire keychain can be locked, meaning no one can decrypt its protected contents until it is unlocked with a master password. Even with an unlocked keychain, the system’s Keychain Access policy ensures that only authorized apps gain access to a given item in the keychain. In the simplest case, the app that created an item is the only one that can access it later. 
